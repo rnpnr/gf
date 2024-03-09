@@ -161,15 +161,6 @@ Set breakpoints=b main;b LoadFile;b AssertionFailure
 
 You can use any standard GDB command, or any of the commands listed in "Special commands" below.
 
-### Vim integration
-
-You can change the server name with the `server_name` key in the `vim` section. For example,
-
-```ini
-[vim]
-server_name=MyVimServer
-```
-
 ## Control pipe
 
 You can change the loaded file and line by sending commands to the control pipe. 
